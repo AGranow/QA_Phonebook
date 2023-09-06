@@ -9,21 +9,20 @@ public class RemoveContactTest extends TestBase {
 
     @BeforeMethod
     public void ensurePrecondition() {
-        if (!isLoginLinkPresent()) {
-            clickOnSignOutButton();
+        if (!app.getUser().isLoginLinkPresent()) {
+            app.getUser().clickOnSignOutButton();
         }
-        login();
-        addContact();
+        app.getUser().login();
+        app.getContact().addContact();
     }
 
     @Test
     public void removeContactTest() {
-        int sizeBefore = sizeOfContact();
-        //click on contact card -  .contact-item_card__2SOIM -css
-        removeContact();
-        pause(1000);
-        int sizeAfter = sizeOfContact();
-//      assert contact is remove
+        int sizeBefore = app.getContact().sizeOfContact();
+
+        app.getContact().removeContact();
+        app.getContact().pause(1000);
+        int sizeAfter = app.getContact().sizeOfContact();
         Assert.assertEquals(sizeAfter,sizeBefore-1);
     }
 

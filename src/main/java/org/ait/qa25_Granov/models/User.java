@@ -1,4 +1,4 @@
-package org.ait.qa25_Granov;
+package org.ait.qa25_Granov.models;
 
 public class User {
     private  String email;
