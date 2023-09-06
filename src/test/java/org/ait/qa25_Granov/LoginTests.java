@@ -1,6 +1,5 @@
 package org.ait.qa25_Granov;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -20,13 +19,22 @@ public class LoginTests extends TestBase {
     @Test
     public void loginPositiveTest() {
 //    enter email [placeholder='Email']
-        fillLoginRegistrationForm("max_email_probe@gmail.com", "Aa1234567$");
+        fillLoginRegistrationForm(new User()
+                .setEmail("max_email_probe@gmail.com")
+                .setPassword("Aa1234567$"));
 
 //        click on Login button
-        click(By.xpath("//button[.='Login']"));
+        clickOnLoginButton();
 //        assert Sign out button present
-        Assert.assertTrue(isElementPresent2(By.xpath("//button[contains(.,'Sign Out')]")));
+        isSignOutButtonPresent();
+    }
 
+    @Test
+    public void loginNegativeWithoutTest() {
+        fillLoginRegistrationForm(new User()
+                .setPassword("Aa1234567$"));
+        clickOnLoginButton();
+        Assert.assertTrue(isAlertPresent());
     }
 
 

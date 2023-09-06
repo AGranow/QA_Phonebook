@@ -39,7 +39,7 @@ public class CreateAccountTests extends TestBase {
     @Test
     public void existedUserNegativeTest() {
 //    enter email [placeholder='Email']
-        fillLoginRegistrationForm("max_email_probe@gmail.com", "Aa1234567$");
+        fillLoginRegistrationForm(new User().setEmail("max_email_probe@gmail.com").setPassword("Aa1234567$"));
 
 //    click on Registration button  //button[text()='Registration']
         clickOnRegistrationButton();
