@@ -13,8 +13,6 @@ public class CreateAccountTests extends TestBase {
         if (!app.getUser().isLoginLinkPresent()) {
             app.getUser().clickOnSignOutButton();
         }
-
-//    click on Login link a:nth-child(4)
         app.getUser().clickOnLoginLink();
     }
 

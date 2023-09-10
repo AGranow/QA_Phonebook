@@ -1,0 +1,5 @@
+1259 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\avrah\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+4163 [main] INFO  org.ait.qa25_Granov.TestBase -- Start test
+22787 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test

@@ -37,6 +37,7 @@ public class ContactHelper extends HelperBase{
     public void removeContact() {
         click(By.cssSelector(".contact-item_card__2SOIM"));
         click(By.xpath("//button[.='Remove']"));
+//                                  //button[contains(text(),'Remove')]
     }
 
     public boolean isContactAdded(String text) {

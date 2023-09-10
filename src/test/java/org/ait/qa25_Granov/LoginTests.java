@@ -13,20 +13,15 @@ public class LoginTests extends TestBase {
             app.getUser().clickOnSignOutButton();
         }
 
-
         app.getUser().clickOnLoginLink();
     }
 
     @Test
     public void loginPositiveTest() {
-//    enter email [placeholder='Email']
         app.getUser().fillLoginRegistrationForm(new User()
                 .setEmail("max_email_probe@gmail.com")
                 .setPassword("Aa1234567$"));
-
-//        click on Login button
         app.getUser().clickOnLoginButton();
-//        assert Sign out button present
         app.getUser().isSignOutButtonPresent();
     }
 

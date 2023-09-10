@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" verbose="1" >
+    <test name="Quick" >
+        <classes>
+            <class name="org.ait.qa25_Granov.HomePageTests" />
+            <class name="org.ait.qa25_Granov.LoginTests" >
+            <methods>
+                <include name=".*Negative.*"/>
+            </methods>
+            </class>
+
+            <class name="org.ait.qa25_Granov.AddContactTests" />
+            <class name="org.ait.qa25_Granov.RemoveContactTest" />
+        </classes>
+    </test>
+</suite>
