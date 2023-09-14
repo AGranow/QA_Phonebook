@@ -1,0 +1,4 @@
+1053 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\avrah\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+3196 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testaddContactPositiveTestFromDataProvider

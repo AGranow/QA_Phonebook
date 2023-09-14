@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-public class UserHelper  extends HelperBase{
+public class UserHelper extends HelperBase {
     public UserHelper(WebDriver driver) {
         super(driver);
     }
@@ -20,7 +20,6 @@ public class UserHelper  extends HelperBase{
 
     public boolean isLoginLinkPresent() {
         return isElementPresent(By.xpath("//a[.='LOGIN']"));
-//                                                   "//a[.='LOGIN']"
     }
 
     public void clickOnRegistrationButton() {
@@ -32,8 +31,15 @@ public class UserHelper  extends HelperBase{
         type(By.cssSelector("[placeholder='Password']"), user.getPassword());
     }
 
-    public void isSignOutButtonPresent() {
-        Assert.assertTrue(isElementPresent2(By.xpath("//button[contains(.,'Sign Out')]")));
+    public void fillLoginRegistrationFormScreencast(User user) {
+        type(By.cssSelector("[placeholder='Email']"), user.getEmail());
+        pause(1000);
+        type(By.cssSelector("[placeholder='Password']"), user.getPassword());
+        pause(1000);
+    }
+
+    public boolean isSignOutButtonPresent() {
+        return isElementPresent2(By.xpath("//button[contains(.,'Sign Out')]"));
     }
 
     public void clickOnLoginButton() {

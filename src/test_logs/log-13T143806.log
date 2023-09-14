@@ -1,0 +1,7 @@
+1021 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\avrah\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+3478 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testaddContactPositiveTest with data []
+9348 [main] INFO  org.ait.qa25_Granov.TestBase -- PASSED : addContactPositiveTest
+9348 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
+9349 [main] ERROR org.ait.qa25_Granov.TestBase -- *****************************************

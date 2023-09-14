@@ -1,0 +1,23 @@
+973  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\avrah\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+2963 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testaddContactPositiveTestFromDataProvider with data [Contact{name='Le', phone='1234567890'}]
+12176 [main] INFO  org.ait.qa25_Granov.TestBase -- PASSED : addContactPositiveTestFromDataProvider
+12177 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
+12177 [main] ERROR org.ait.qa25_Granov.TestBase -- *****************************************
+12178 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testaddContactPositiveTestFromDataProvider with data [Contact{name='Manuel', phone='1234567890'}]
+30790 [main] INFO  org.ait.qa25_Granov.TestBase -- PASSED : addContactPositiveTestFromDataProvider
+30790 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
+30790 [main] ERROR org.ait.qa25_Granov.TestBase -- *****************************************
+30791 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testaddContactPositiveTestFromDataProvider with data [Contact{name='Manuelllllllllllllllllllllllllllllllllllllllllllllllllll', phone='1234567890'}]
+49583 [main] INFO  org.ait.qa25_Granov.TestBase -- PASSED : addContactPositiveTestFromDataProvider
+49583 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
+49583 [main] ERROR org.ait.qa25_Granov.TestBase -- *****************************************
+49584 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testaddContactPositiveTestFromDataProvider with data [Contact{name='Manuel-Le', phone='1234567890'}]
+68290 [main] INFO  org.ait.qa25_Granov.TestBase -- PASSED : addContactPositiveTestFromDataProvider
+68290 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
+68290 [main] ERROR org.ait.qa25_Granov.TestBase -- *****************************************
+68291 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testaddContactPositiveTestFromDataProvider with data [Contact{name='Manuel Le', phone='1234567890'}]
+86916 [main] INFO  org.ait.qa25_Granov.TestBase -- PASSED : addContactPositiveTestFromDataProvider
+86916 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
+86916 [main] ERROR org.ait.qa25_Granov.TestBase -- *****************************************

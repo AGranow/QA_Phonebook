@@ -1,0 +1,15 @@
+2267 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\avrah\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+9072 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testloginNegativeWithoutTest
+13612 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
+13615 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testloginPositiveTest
+15017 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
+15022 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testisHomeComponentPresentTest
+25197 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
+25201 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testaddContactPositiveTest
+41091 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
+41093 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testremoveContactTest
+65789 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
+65790 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testexistedUserNegativeTest
+77725 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test

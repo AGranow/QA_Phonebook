@@ -7,11 +7,18 @@
             <class name="org.ait.qa25_Granov.LoginTests" >
             <methods>
                 <include name=".*Negative.*"/>
+                <include name=".*Screencast.*"/>
             </methods>
             </class>
 
-            <class name="org.ait.qa25_Granov.AddContactTests" />
+            <class name="org.ait.qa25_Granov.AddContactTests" >
+            <methods>
+                <include name=".*DataProviders.*"/>
+
+            </methods>
+        </class>
             <class name="org.ait.qa25_Granov.RemoveContactTest" />
         </classes>
     </test>
+
 </suite>
