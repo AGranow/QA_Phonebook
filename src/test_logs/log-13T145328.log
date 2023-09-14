@@ -1,8 +1,0 @@
-1102 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
-  C:\Users\avrah\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
-
-3281 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testaddContactPositiveTestFromDataProvider with data [Contact{name='Manuel', phone='1452765839'}]
-13044 [main] INFO  org.ait.qa25_Granov.TestBase -- FAILED : addContactPositiveTestFromDataProvider  Screenshot: C:\Users\avrah\Desktop\Quality assurance\QA_Projekts\QA_Phonebook\screenshots\skreen 1694609620.png
-13044 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
-13044 [main] ERROR org.ait.qa25_Granov.TestBase -- *****************************************
-13045 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testaddContactPositiveTestFromDataProvider with data [Contact{name='Manuel Agilero Sanchos', phone='1639376357'}]

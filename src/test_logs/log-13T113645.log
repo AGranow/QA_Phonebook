@@ -1,7 +1,0 @@
-1076 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
-  C:\Users\avrah\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
-
-3381 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testloginPositiveTestWithScreencast
-8140 [main] INFO  org.ait.qa25_Granov.TestBase -- PASSED : loginPositiveTestWithScreencast
-8141 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
-8142 [main] ERROR org.ait.qa25_Granov.TestBase -- *****************************************

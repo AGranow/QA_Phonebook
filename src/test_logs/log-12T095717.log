@@ -1,7 +1,0 @@
-1466 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
-  C:\Users\avrah\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
-
-4936 [main] INFO  org.ait.qa25_Granov.TestBase -- Start testloginNegativeWithoutTest
-6704 [main] INFO  org.ait.qa25_Granov.TestBase -- PASSEDloginNegativeWithoutTest
-6705 [main] INFO  org.ait.qa25_Granov.TestBase -- Stop test
-6705 [main] ERROR org.ait.qa25_Granov.TestBase -- *****************************************
